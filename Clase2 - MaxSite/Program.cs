@@ -2,13 +2,14 @@
 
 string[] listaPeliculas = { "El padrino", "Batman", "Tiempos violentos", "Forrest Gump", "El origen", "Batman 2", "Superman", "El padrino II" };
 string[] directores = { "Francis Ford Coppola", "Tim Burton", "Quentin Tarantino", "Robert Zemeckis", "Christopher Nolan", "Tim Burton", "Richard Donner", "Francis Ford Coppola" };
+string[] generos = { "Drama", "Accion", "Drama", "Comedia", "Suspenso", "Accion", "Accion","Drama" };
 string[] calificaciones = { "9.2", "7.5", "8.9", "8.8", "8.7", "7.0", "7.3", "9.0" }; //calificaciones de IMDb.
 string[] displayMergeText = new string[8];
 string valoresEncontrados = "";
 
 for (int i = 0; i < listaPeliculas.Length; i++)
 {
-    displayMergeText[i] = $"{listaPeliculas[i]} dirigida por {directores[i]} ({calificaciones[i]} estrellas en IMDb)";
+    displayMergeText[i] = $"{listaPeliculas[i]} dirigida por {directores[i]} ({calificaciones[i]} estrellas en IMDb) / Genero: {generos[i]}";
     //Console.WriteLine(displayMergeText[i]);
 }
 
