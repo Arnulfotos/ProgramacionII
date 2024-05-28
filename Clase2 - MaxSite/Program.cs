@@ -12,7 +12,7 @@ for (int i = 0; i < listaPeliculas.Length; i++)
     displayMergeText[i] = $"{listaPeliculas[i]} dirigida por {directores[i]} ({calificaciones[i]} estrellas en IMDb) / Genero: {generos[i]}";
     //Console.WriteLine(displayMergeText[i]);
 }
-
+// HOLA MUNDO
 
 do
 {
